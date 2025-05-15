@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flexbox Examples</title>
+  <style>
+    body {
+      background-color: #f2c4e4;
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: #9b28b1;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px;
+    }
+    .item {
+      width: 30px;
+      height: 30px;
+      background-color: orange;
+      margin: 3px;
+    }
+    .label {
+      text-align: center;
+      margin-bottom: 5px;
+      color: #333;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- flex -->
+  <div>
+    <div class="label">flex</div>
+    <div class="container" style="flex-direction: row;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- direction -->
+  <div>
+    <div class="label">direction</div>
+    <div class="container" style="flex-direction: column;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- wrap -->
+  <div>
+    <div class="label">Wrap</div>
+    <div class="container" style="flex-wrap: wrap; width: 120px;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- justify -->
+  <div>
+    <div class="label">Justify</div>
+    <div class="container" style="justify-content: space-between;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- flex (repeat) -->
+  <div>
+    <div class="label">flex</div>
+    <div class="container" style="flex-direction: row;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- justify center -->
+  <div>
+    <div class="label">justify</div>
+    <div class="container" style="justify-content: center;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- justify space-around -->
+  <div>
+    <div class="label">justify</div>
+    <div class="container" style="justify-content: space-around;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- justify space-evenly -->
+  <div>
+    <div class="label">justify</div>
+    <div class="container" style="justify-content: space-evenly;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- align flex-start -->
+  <div>
+    <div class="label">align</div>
+    <div class="container" style="align-items: flex-start;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- align flex-end -->
+  <div>
+    <div class="label">align</div>
+    <div class="container" style="align-items: flex-end;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- align center -->
+  <div>
+    <div class="label">align</div>
+    <div class="container" style="align-items: center;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <!-- justify start -->
+  <div>
+    <div class="label">justify</div>
+    <div class="container" style="justify-content: flex-start;">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+</body>
+</html>
